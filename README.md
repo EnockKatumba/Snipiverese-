@@ -1,3 +1,6 @@
+# Snipiverse
+Welcome to Snipiverse repository!
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
