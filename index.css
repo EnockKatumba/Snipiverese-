@@ -204,6 +204,7 @@ footer {
         .form button:hover { opacity: 0.8; }
 
         /* Snippet Section */
+/* Original .snippet code with added expand functionality */
 .snippet {
     background-color: #f8f9fa;
     padding: 10px;
@@ -212,9 +213,10 @@ footer {
     line-height: 1.4;
     color: #333;
     max-height: 120px; /* Initial collapsed height */
-    overflow: hidden;
+    overflow: hidden; /* Hide overflowing content initially */
     transition: max-height 0.5s ease, padding 0.5s ease; /* Smooth transition for expansion */
 }
+
 
 .snippet.expanded {
     max-height: 1000px; /* Large enough max-height for full content */
