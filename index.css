@@ -1479,4 +1479,48 @@ copy-btn:hover {
     width: 100%;
     height: auto;
   }
+  .snippet-guide {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.guide-heading {
+    color: #4CAF50;  /* Heading with a slightly different color */
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.guide-paragraph {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    margin: 10px 0;
+}
+
+.guide-paragraph:nth-child(2) {
+    animation-delay: 1s;
+}
+
+.guide-paragraph:nth-child(3) {
+    animation-delay: 2s;
+}
+
+.guide-paragraph:nth-child(4) {
+    animation-delay: 3s;
+}
+
+.guide-paragraph:nth-child(5) {
+    animation-delay: 4s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+  }
 }
