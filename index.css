@@ -212,9 +212,15 @@ footer {
     font-size: 14px;
     line-height: 1.4;
     color: #333;
-    max-height: 120px; /* Initial collapsed height */
-    overflow: hidden; /* Hide overflowing content initially */
-    transition: max-height 0.5s ease, padding 0.5s ease; /* Smooth transition for expansion */
+  
+  overflow: auto; /* Enable scrolling */
+  white-space: pre-wrap; /* Preserve formatting while allowing wrapping */
+  max-height: 300px; /* Set a max height if needed */
+  max-width: 100%; /* Ensure it doesn't overflow horizontally */
+
+  
+  border: 1px solid #ccc; /* Optional border for better visibility */
+  font-family: monospace; /* Use monospace font for code */
 }
 
 
