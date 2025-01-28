@@ -206,12 +206,13 @@ footer {
         /* Snippet Section */
 /* Original .snippet code with added expand functionality */
 .snippet {
-    background-color: #fce8e3;
+    background-color: #495057; /* Dark Charcoal */
+color: white; 
     padding: 10px;
     border-radius: 5px;
     font-size: 14px;
     line-height: 1.4;
-    color: #333;
+  
   
   overflow: auto; /* Enable scrolling */
   white-space: pre-wrap; /* Preserve formatting while allowing wrapping */
