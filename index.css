@@ -206,8 +206,7 @@ footer {
         /* Snippet Section */
 /* Original .snippet code with added expand functionality */
 .snippet {
-background-color: #8a9399; /* Soft Medium Cool Grey */
-color: white; /* Light text for contrast */
+
     padding: 10px;
     border-radius: 5px;
     font-size: 14px;
