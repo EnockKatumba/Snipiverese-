@@ -215,7 +215,7 @@ footer {
   
   overflow: auto; /* Enable scrolling */
   white-space: pre-wrap; /* Preserve formatting while allowing wrapping */
-  max-height: 200px; /* Set a max height if needed */
+  max-height: 150px; /* Set a max height if needed */
   max-width: 100%; /* Ensure it doesn't overflow horizontally */
 
   font-family: monospace; /* Use monospace font for code */
