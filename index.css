@@ -205,24 +205,30 @@ footer {
 
         /* Snippet Section */
 /* Original .snippet code with added expand functionality */
-.snippet {
-background-color: #d3d3d3;
+snippet {
+  background-color: #d3d3d3;
   color: #1c3d5a;
-/* Light text for contrast */
-    padding: 10px;
-    border-radius: 5px;
-    font-size: 14px;
-    line-height: 1.4;
-  
-  
-  overflow: auto; /* Enable scrolling */
-  white-space: pre-wrap; /* Preserve formatting while allowing wrapping */
-  max-height: 150px; /* Set a max height if needed */
-  max-width: 100%; /* Ensure it doesn't overflow horizontally */
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 1.4;
+  overflow: auto;
+  white-space: pre-wrap;
+  max-height: 150px;
+  max-width: 90%; /* Make it responsive */
+  font-family: monospace;
 
-  font-family: monospace; /* Use monospace font for code */
+  /* Centering */
+  display: block;  /* Ensure it's treated as a block */
+  margin: 0 auto;  /* Center it horizontally */
+  text-align: left; /* Keep text aligned properly */
 }
 
+@media (min-width: 768px) { /* Adjust for larger screens */
+  snippet {
+    max-width: 60%; /* Shrink width to keep it centered */
+  }
+}
 
 .snippet.expanded {
     max-height: 1000px; /* Large enough max-height for full content */
